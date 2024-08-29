@@ -1,0 +1,94 @@
+<!DOCTYPE html>  
+<html lang="en">  
+
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <link rel="preconnect" href="https://fonts.googleapis.com">  
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>  
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">  
+    <link rel="icon" type="png" href="https://www.freeiconspng.com/thumbs/weather-icon-png/weather-icon-png-2.png">  
+    <link rel="stylesheet" href="style.css">  
+    <title>Weather Update</title>  
+</head>  
+
+<body>  
+
+    <div class="header"> 
+        <div class="searchbutton">
+            <input type="text" id="cityInput" placeholder="Enter City">  
+            <button id="searchButton">Search</button>
+        </div> 
+
+        <div class="news">
+            <a href="hotel.html"><b>Hotel</b></a>
+        </div>
+
+        <b>Weather Update</b>
+        <div class="news">
+            <a href="news.html"><b>News</b></a>
+        </div>
+
+        <div id="datetime" class="datetime"></div>  
+    </div>  
+
+
+    <div class="location-details">  
+ 
+
+        <div class="wegolmap">  
+            <div class="weather-card">  
+                <div class="weather-item">  
+                    <label for="temperature">Temperature</label>  
+                    <p id="temperature">Loading...</p>  
+                </div>  
+                <div class="weather-item">  
+                    <label for="humidity">Humidity</label>  
+                    <p id="humidity">Loading...</p>  
+                </div>  
+                <div class="weather-item">  
+                    <label for="wind">Wind</label>  
+                    <p id="wind">Loading...</p>  
+                </div>  
+            </div>  
+        </div>  
+
+        <marquee class="contactslides">
+            <div>
+                <h2>ICDRRMO HOTLINES</h2>
+                <a href="0997 726 2692"><h2>0997 726 2692</h2></a>
+                <a href="tel:09692337878"><h2>09692337878</h2></a>
+                <a href="tel:811"><h2>811</h2></a>
+            </div>
+
+            <div>
+                <h2>ICDRRMO HOTLINES</h2>
+                <a href="0997 726 2692"><h2>0997 726 2692</h2></a>
+                <a href="tel:09692337878"><h2>09692337878</h2></a>
+                <a href="tel:811"><h2>811</h2></a>
+                <a href="https://www.facebook.com/cdrrmoiligancity" target="_blank">  
+                    <h2>Iligan City Disaster Risk Reduction & Management Office</h2>  
+                </a>  
+            </div>
+        </marquee>
+
+        <div class="location-marker">
+            <img src="img/location.png" alt="location">  
+            <div class="location-label">Iligan City, Lanao Del Norte</div>  
+        </div>  
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3948.718056599509!2d124.23364337419515!3d8.231081400970032!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x325575dd9dc08ab1%3A0xd8dde29fe323dd34!2sSabayle%2C%20Iligan%20City%2C%20Lanao%20del%20Norte!5e0!3m2!1sen!2sph!4v1723683469976!5m2!1sen!2sph" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="google-map"></iframe>  
+       
+    </div>
+
+        <footer class="footer"> 
+            <div>
+                <p>@Genie James Arsenal</p>
+                <a href="mailto:geniejamesarsenal.202300349@gmail.com">geniejamesarsenal.202300349@gmail.com</a>    
+            </div> 
+        </footer>  
+        
+    </body>  
+    <script src="script.js"></script>
+</html>
+
